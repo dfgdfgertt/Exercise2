@@ -11,9 +11,10 @@ public class Practice4 {
         float b = input.nextFloat();
         System.out.print("Nhập số c: ");
         float c = input.nextFloat();
-        System.out.println("x = " + ((-b)/(float)a) );
+        giaiPTBac2(a,b,c);
 
     }
+
     public static void giaiPTBac2(float a, float b, float c) {
         if (a == 0) {
             if (b == 0) {
