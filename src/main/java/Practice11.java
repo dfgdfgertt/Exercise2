@@ -20,7 +20,7 @@ public class Practice11 {
             return 31;
         else if (month == 4 || month == 6 || month == 9 || month == 11)
             return 30;
-        else if (year%4 == 0 && month == 2 && year%100 != 0)
+        else if (((year%4 == 0 && year%100 != 0) || (year%400 == 0))  && month == 2 )
             return 29;
         else
             return 28;
