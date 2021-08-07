@@ -18,7 +18,7 @@ public class Practice8 {
             return 31;
         else if (month == 4 || month == 6 || month == 9 || month == 11)
             return 30;
-        else if (year%4 == 0 && month == 2)
+        else if (year%4 == 0 && month == 2 && year%100 != 0)
             return 29;
         else
             return 28;
